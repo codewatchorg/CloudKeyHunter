@@ -64,7 +64,7 @@ function Invoke-CloudKeyHunter {
   $cloudfiles["GCP"][0] = "AppData\Roaming\gcloud\credentials";
   $cloudfiles["GCP"][1] = "AppData\Roaming\gcloud\credentials.db";
   $cloudfiles["GCP"][2] = "AppData\Roaming\gcloud\access_tokens.db";
-  $cloudfiles["GCP"][2] = "AppData\Roaming\gcloud\legacy_credentials";
+  $cloudfiles["GCP"][3] = "AppData\Roaming\gcloud\legacy_credentials";
   $cloudfiles["AWS/GCP"] = @{};
   $cloudfiles["AWS/GCP"][0] = ".boto";
   $cloudfiles["AWS/GCP"][1] = ".boto_user_account";
